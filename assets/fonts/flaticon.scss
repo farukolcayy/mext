@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?41216e0c1940c3b5718a8fe06d8f601d") format("truetype"),
+url("./flaticon.woff?41216e0c1940c3b5718a8fe06d8f601d") format("woff"),
+url("./flaticon.woff2?41216e0c1940c3b5718a8fe06d8f601d") format("woff2"),
+url("./flaticon.eot?41216e0c1940c3b5718a8fe06d8f601d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?41216e0c1940c3b5718a8fe06d8f601d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "bullhorn": "\f101",
+    "capability": "\f102",
+    "costumer-service": "\f103",
+    "group": "\f104",
+    "services": "\f105",
+    "shopping-bag": "\f106",
+);
+
+.flaticon-bullhorn:before {
+    content: map-get($flaticon-map, "bullhorn");
+}
+.flaticon-capability:before {
+    content: map-get($flaticon-map, "capability");
+}
+.flaticon-costumer-service:before {
+    content: map-get($flaticon-map, "costumer-service");
+}
+.flaticon-group:before {
+    content: map-get($flaticon-map, "group");
+}
+.flaticon-services:before {
+    content: map-get($flaticon-map, "services");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon-map, "shopping-bag");
+}
