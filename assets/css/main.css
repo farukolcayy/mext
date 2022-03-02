@@ -15,14 +15,14 @@ html {
 
 @font-face {
   font-family: "DIN Next LT Pro Regular";
-  src: url("https://globalbilgi.ogrencikariyeri.com/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.eot");
+  src: url("/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.eot");
   /* IE9*/
-  src: url("https://globalbilgi.ogrencikariyeri.com/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("https://globalbilgi.ogrencikariyeri.com/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.woff2") format("woff2"), /* chrome、firefox */
-  url("https://globalbilgi.ogrencikariyeri.com/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.woff") format("woff"), /* chrome、firefox */
-  url("https://globalbilgi.ogrencikariyeri.com/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("https://globalbilgi.ogrencikariyeri.com/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.svg#DIN Next LT Pro Regular") format("svg");
-  /* iOS 4.1- */
+  /* src: url("fonts/93a467f70a3e7b27a9b52a686f351dbe.eot?#iefix") format("embedded-opentype"), 
+  url("fonts/93a467f70a3e7b27a9b52a686f351dbe.woff2") format("woff2"), 
+  url("/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.woff") format("woff"), 
+  url("/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.ttf") format("truetype"), 
+  url("/assets/fonts/93a467f70a3e7b27a9b52a686f351dbe.svg#DIN Next LT Pro Regular") format("svg"); */
+
 }
 
 .demo {
